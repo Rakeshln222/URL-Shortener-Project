@@ -3,7 +3,6 @@
 
 A simple web application that allows you to convert long URLs into short, memorable links that redirect to the original URLs.
 
----
 
 ## Table of Contents
 
@@ -22,16 +21,12 @@ A simple web application that allows you to convert long URLs into short, memora
 * [License](#license)
 * [Acknowledgements](#acknowledgements)
 
----
-
 ## Features
 
 * Input a long URL → generate a unique short link.
 * Redirect from the short link to the original long URL.
 * Basic tracking / mapping of short code to full URL.
 * Minimal UI to make the process quick and intuitive.
-
----
 
 ## Demo / How it Works
 
@@ -40,16 +35,12 @@ A simple web application that allows you to convert long URLs into short, memora
 3. When someone clicks the short URL (or enters it into the browser), it redirects to the original long URL.
 4. The database stores the mapping between short code ↔ long URL.
 
----
-
 ## Tech Stack
 
 * **Backend**: Python (Flask)
 * **Frontend**: HTML + simple styling
 * **Database**: SQLite (or file-based `database.db`)
 * **Other**: Python modules as listed in `requirements.txt`
-
----
 
 ## Getting Started
 
@@ -61,21 +52,17 @@ A simple web application that allows you to convert long URLs into short, memora
 
 ### Installation
 
-```bash
+bash
 git clone https://github.com/Rakeshln222/URL-Shortener-Project.git
 cd URL-Shortener-Project
 pip install -r requirements.txt
-```
 
 ### Running the Application
 
-```bash
+bash
 python app.py
-```
 
 Open your browser and navigate to `http://127.0.0.1:5000/` (or whichever port is configured).
-
----
 
 ## Database / Data Model
 
@@ -88,11 +75,8 @@ Open your browser and navigate to `http://127.0.0.1:5000/` (or whichever port is
   * maybe **created_at** (timestamp)
 * The `database.db` file is the SQLite database used for this mapping.
 
----
-
 ## Project Structure
 
-```
 URL-Shortener-Project/
 │
 ├── app.py             # main Flask app
@@ -102,9 +86,6 @@ URL-Shortener-Project/
 ├── templates/         # HTML templates for the web UI
 │   └── …  
 └── notes.txt          # project notes / to-do items
-```
-
----
 
 ## Usage
 
@@ -113,8 +94,6 @@ URL-Shortener-Project/
 * Click “Shorten” (or analogous button) → you’ll receive a short link (e.g., `http://yourdomain.com/abc123`).
 * Share the short link / use it.
 * Anyone clicking the short link gets redirected to the original URL.
-
----
 
 ## Contributing
 
@@ -134,14 +113,10 @@ Possible enhancements:
 * Improve UI / responsive design.
 * Deploy to a cloud platform (e.g., Heroku, AWS, etc.).
 
----
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE) (if you choose to add one).
 Feel free to use, modify, and distribute it.
-
----
 
 ## Acknowledgements
 
