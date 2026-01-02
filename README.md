@@ -113,13 +113,4 @@ Possible enhancements:
 * Improve UI / responsive design.
 * Deploy to a cloud platform (e.g., Heroku, AWS, etc.).
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE) (if you choose to add one).
-Feel free to use, modify, and distribute it.
-
-## Acknowledgements
-
-* Thanks to the open-source community and various Flask/SQLite tutorials which inspired this implementation.
-* Thanks to anyone who uses or improves this project.
 
