@@ -95,15 +95,6 @@ URL-Shortener-Project/
 * Share the short link / use it.
 * Anyone clicking the short link gets redirected to the original URL.
 
-## Contributing
-
-Contributions are welcome! Here’s how you can help:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Make your changes and commit (`git commit -m "Add awesome feature"`).
-4. Push your branch (`git push origin feature/YourFeature`).
-5. Open a Pull Request and describe what you did & why.
 
 Possible enhancements:
 
